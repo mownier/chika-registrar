@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21AD3033905FBFD7380D3128 /* Pods_ChikaRegistrarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1243DC7F39D0F50C40F0F29C /* Pods_ChikaRegistrarTests.framework */; };
+		48DF5FCD2029581600A45624 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF5FCC2029581600A45624 /* AppDelegate.swift */; };
+		48DF5FCF2029581600A45624 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF5FCE2029581600A45624 /* ViewController.swift */; };
+		48DF5FD22029581600A45624 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DF5FD02029581600A45624 /* Main.storyboard */; };
+		48DF5FD42029581600A45624 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DF5FD32029581600A45624 /* Assets.xcassets */; };
+		48DF5FD72029581600A45624 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DF5FD52029581600A45624 /* LaunchScreen.storyboard */; };
+		48DF5FE22029581600A45624 /* ChikaRegistrarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF5FE12029581600A45624 /* ChikaRegistrarTests.swift */; };
+		48DF5FEE202958F500A45624 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF5FED202958F500A45624 /* Scene.swift */; };
+		48DF5FF02029590E00A45624 /* Registrar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DF5FEF2029590E00A45624 /* Registrar.storyboard */; };
+		48DF5FF22029592100A45624 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF5FF12029592100A45624 /* Factory.swift */; };
+		48DF5FF4202959D200A45624 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DF5FF3202959D200A45624 /* Theme.swift */; };
+		48DF5FF620295D4300A45624 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48DF5FF520295D4300A45624 /* GoogleService-Info.plist */; };
+		82968DA4EF04081F8B435834 /* Pods_ChikaRegistrar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF31B82EAD986E5517B167F2 /* Pods_ChikaRegistrar.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48DF5FDE2029581600A45624 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48DF5FC12029581600A45624 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48DF5FC82029581600A45624;
+			remoteInfo = ChikaRegistrar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1243DC7F39D0F50C40F0F29C /* Pods_ChikaRegistrarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChikaRegistrarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D63C82455356F7BA11394DE /* Pods-ChikaRegistrar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChikaRegistrar.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChikaRegistrar/Pods-ChikaRegistrar.release.xcconfig"; sourceTree = "<group>"; };
+		48DF5FC92029581600A45624 /* ChikaRegistrar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChikaRegistrar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DF5FCC2029581600A45624 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48DF5FCE2029581600A45624 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48DF5FD12029581600A45624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48DF5FD32029581600A45624 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48DF5FD62029581600A45624 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48DF5FD82029581600A45624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48DF5FDD2029581600A45624 /* ChikaRegistrarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChikaRegistrarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DF5FE12029581600A45624 /* ChikaRegistrarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChikaRegistrarTests.swift; sourceTree = "<group>"; };
+		48DF5FE32029581600A45624 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48DF5FED202958F500A45624 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		48DF5FEF2029590E00A45624 /* Registrar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registrar.storyboard; sourceTree = "<group>"; };
+		48DF5FF12029592100A45624 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		48DF5FF3202959D200A45624 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		48DF5FF520295D4300A45624 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../ChikaFirebaseDemo/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6DE87D9BF0C8EFE93802A532 /* Pods-ChikaRegistrarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChikaRegistrarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChikaRegistrarTests/Pods-ChikaRegistrarTests.release.xcconfig"; sourceTree = "<group>"; };
+		7297D0F28C1E872EE8D45E9C /* Pods-ChikaRegistrar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChikaRegistrar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChikaRegistrar/Pods-ChikaRegistrar.debug.xcconfig"; sourceTree = "<group>"; };
+		DF31B82EAD986E5517B167F2 /* Pods_ChikaRegistrar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChikaRegistrar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8D2A5B39F503B4111EC22C /* Pods-ChikaRegistrarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChikaRegistrarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChikaRegistrarTests/Pods-ChikaRegistrarTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48DF5FC62029581600A45624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82968DA4EF04081F8B435834 /* Pods_ChikaRegistrar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DF5FDA2029581600A45624 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21AD3033905FBFD7380D3128 /* Pods_ChikaRegistrarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48DF5FC02029581600A45624 = {
+			isa = PBXGroup;
+			children = (
+				48DF5FCB2029581600A45624 /* ChikaRegistrar */,
+				48DF5FE02029581600A45624 /* ChikaRegistrarTests */,
+				48DF5FCA2029581600A45624 /* Products */,
+				4DE7833D7C00A7C4F1C2B95C /* Pods */,
+				8FA7071267821ED89C74DF66 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		48DF5FCA2029581600A45624 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48DF5FC92029581600A45624 /* ChikaRegistrar.app */,
+				48DF5FDD2029581600A45624 /* ChikaRegistrarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48DF5FCB2029581600A45624 /* ChikaRegistrar */ = {
+			isa = PBXGroup;
+			children = (
+				48DF5FF520295D4300A45624 /* GoogleService-Info.plist */,
+				48DF5FD82029581600A45624 /* Info.plist */,
+				48DF5FCC2029581600A45624 /* AppDelegate.swift */,
+				48DF5FCE2029581600A45624 /* ViewController.swift */,
+				48DF5FD32029581600A45624 /* Assets.xcassets */,
+				48DF5FD52029581600A45624 /* LaunchScreen.storyboard */,
+				48DF5FD02029581600A45624 /* Main.storyboard */,
+				48DF5FEC2029582100A45624 /* Source */,
+			);
+			path = ChikaRegistrar;
+			sourceTree = "<group>";
+		};
+		48DF5FE02029581600A45624 /* ChikaRegistrarTests */ = {
+			isa = PBXGroup;
+			children = (
+				48DF5FE12029581600A45624 /* ChikaRegistrarTests.swift */,
+				48DF5FE32029581600A45624 /* Info.plist */,
+			);
+			path = ChikaRegistrarTests;
+			sourceTree = "<group>";
+		};
+		48DF5FEC2029582100A45624 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				48DF5FEF2029590E00A45624 /* Registrar.storyboard */,
+				48DF5FF12029592100A45624 /* Factory.swift */,
+				48DF5FED202958F500A45624 /* Scene.swift */,
+				48DF5FF3202959D200A45624 /* Theme.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		4DE7833D7C00A7C4F1C2B95C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7297D0F28C1E872EE8D45E9C /* Pods-ChikaRegistrar.debug.xcconfig */,
+				1D63C82455356F7BA11394DE /* Pods-ChikaRegistrar.release.xcconfig */,
+				FB8D2A5B39F503B4111EC22C /* Pods-ChikaRegistrarTests.debug.xcconfig */,
+				6DE87D9BF0C8EFE93802A532 /* Pods-ChikaRegistrarTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8FA7071267821ED89C74DF66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF31B82EAD986E5517B167F2 /* Pods_ChikaRegistrar.framework */,
+				1243DC7F39D0F50C40F0F29C /* Pods_ChikaRegistrarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48DF5FC82029581600A45624 /* ChikaRegistrar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48DF5FE62029581600A45624 /* Build configuration list for PBXNativeTarget "ChikaRegistrar" */;
+			buildPhases = (
+				297C3157013691967D08F5D6 /* [CP] Check Pods Manifest.lock */,
+				48DF5FC52029581600A45624 /* Sources */,
+				48DF5FC62029581600A45624 /* Frameworks */,
+				48DF5FC72029581600A45624 /* Resources */,
+				87E75818E34FDB1A90321182 /* [CP] Embed Pods Frameworks */,
+				FAA2207CAFF80D87BA1A4F23 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChikaRegistrar;
+			productName = ChikaRegistrar;
+			productReference = 48DF5FC92029581600A45624 /* ChikaRegistrar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48DF5FDC2029581600A45624 /* ChikaRegistrarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48DF5FE92029581600A45624 /* Build configuration list for PBXNativeTarget "ChikaRegistrarTests" */;
+			buildPhases = (
+				C6AA80FBC981F42DAA0ACE82 /* [CP] Check Pods Manifest.lock */,
+				48DF5FD92029581600A45624 /* Sources */,
+				48DF5FDA2029581600A45624 /* Frameworks */,
+				48DF5FDB2029581600A45624 /* Resources */,
+				2D595E3A25AF54DC6534DA06 /* [CP] Embed Pods Frameworks */,
+				95DEB3240188BEA9309DFC69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48DF5FDF2029581600A45624 /* PBXTargetDependency */,
+			);
+			name = ChikaRegistrarTests;
+			productName = ChikaRegistrarTests;
+			productReference = 48DF5FDD2029581600A45624 /* ChikaRegistrarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48DF5FC12029581600A45624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Nir;
+				TargetAttributes = {
+					48DF5FC82029581600A45624 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					48DF5FDC2029581600A45624 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 48DF5FC82029581600A45624;
+					};
+				};
+			};
+			buildConfigurationList = 48DF5FC42029581600A45624 /* Build configuration list for PBXProject "ChikaRegistrar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48DF5FC02029581600A45624;
+			productRefGroup = 48DF5FCA2029581600A45624 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48DF5FC82029581600A45624 /* ChikaRegistrar */,
+				48DF5FDC2029581600A45624 /* ChikaRegistrarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48DF5FC72029581600A45624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DF5FD72029581600A45624 /* LaunchScreen.storyboard in Resources */,
+				48DF5FD42029581600A45624 /* Assets.xcassets in Resources */,
+				48DF5FF620295D4300A45624 /* GoogleService-Info.plist in Resources */,
+				48DF5FF02029590E00A45624 /* Registrar.storyboard in Resources */,
+				48DF5FD22029581600A45624 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DF5FDB2029581600A45624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		297C3157013691967D08F5D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChikaRegistrar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D595E3A25AF54DC6534DA06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChikaRegistrarTests/Pods-ChikaRegistrarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87E75818E34FDB1A90321182 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChikaRegistrar/Pods-ChikaRegistrar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChikaCore/ChikaCore.framework",
+				"${BUILT_PRODUCTS_DIR}/ChikaFirebase/ChikaFirebase.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCommunity/FirebaseCommunity.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChikaCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChikaFirebase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCommunity.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChikaRegistrar/Pods-ChikaRegistrar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95DEB3240188BEA9309DFC69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChikaRegistrarTests/Pods-ChikaRegistrarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6AA80FBC981F42DAA0ACE82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChikaRegistrarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAA2207CAFF80D87BA1A4F23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChikaRegistrar/Pods-ChikaRegistrar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48DF5FC52029581600A45624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DF5FF22029592100A45624 /* Factory.swift in Sources */,
+				48DF5FCF2029581600A45624 /* ViewController.swift in Sources */,
+				48DF5FF4202959D200A45624 /* Theme.swift in Sources */,
+				48DF5FCD2029581600A45624 /* AppDelegate.swift in Sources */,
+				48DF5FEE202958F500A45624 /* Scene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48DF5FD92029581600A45624 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DF5FE22029581600A45624 /* ChikaRegistrarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48DF5FDF2029581600A45624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48DF5FC82029581600A45624 /* ChikaRegistrar */;
+			targetProxy = 48DF5FDE2029581600A45624 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48DF5FD02029581600A45624 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48DF5FD12029581600A45624 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48DF5FD52029581600A45624 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48DF5FD62029581600A45624 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48DF5FE42029581600A45624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48DF5FE52029581600A45624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48DF5FE72029581600A45624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7297D0F28C1E872EE8D45E9C /* Pods-ChikaRegistrar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WBRGV5Z9M;
+				INFOPLIST_FILE = ChikaRegistrar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nir.ChikaRegistrar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48DF5FE82029581600A45624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D63C82455356F7BA11394DE /* Pods-ChikaRegistrar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WBRGV5Z9M;
+				INFOPLIST_FILE = ChikaRegistrar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nir.ChikaRegistrar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48DF5FEA2029581600A45624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8D2A5B39F503B4111EC22C /* Pods-ChikaRegistrarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WBRGV5Z9M;
+				INFOPLIST_FILE = ChikaRegistrarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nir.ChikaRegistrarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChikaRegistrar.app/ChikaRegistrar";
+			};
+			name = Debug;
+		};
+		48DF5FEB2029581600A45624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE87D9BF0C8EFE93802A532 /* Pods-ChikaRegistrarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4WBRGV5Z9M;
+				INFOPLIST_FILE = ChikaRegistrarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nir.ChikaRegistrarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChikaRegistrar.app/ChikaRegistrar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48DF5FC42029581600A45624 /* Build configuration list for PBXProject "ChikaRegistrar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DF5FE42029581600A45624 /* Debug */,
+				48DF5FE52029581600A45624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48DF5FE62029581600A45624 /* Build configuration list for PBXNativeTarget "ChikaRegistrar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DF5FE72029581600A45624 /* Debug */,
+				48DF5FE82029581600A45624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48DF5FE92029581600A45624 /* Build configuration list for PBXNativeTarget "ChikaRegistrarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48DF5FEA2029581600A45624 /* Debug */,
+				48DF5FEB2029581600A45624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48DF5FC12029581600A45624 /* Project object */;
+}
