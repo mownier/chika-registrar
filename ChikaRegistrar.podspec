@@ -11,4 +11,5 @@ Pod::Spec.new do |s|
   s.resources = ['ChikaRegistrar/Source/Registrar.storyboard']
   s.requires_arc = true
   s.dependency 'ChikaFirebase/Auth:Registrar'
+  s.dependency 'ChikaFirebase/Writer:OnlinePresenceSwitcher'
 end
