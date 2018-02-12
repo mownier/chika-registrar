@@ -7,6 +7,7 @@ use_frameworks!
 target 'ChikaRegistrar' do
     
     pod 'ChikaFirebase/Auth:Registrar'
+    pod 'ChikaFirebase/Writer:OnlinePresenceSwitcher'
     
     target 'ChikaRegistrarTests' do
         inherit! :search_paths
