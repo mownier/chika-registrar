@@ -25,6 +25,9 @@ public final class Scene: UIViewController {
     var registrar: (() -> Registrar)!
     var operation: RegistrarOperator!
     
+    var onlineSwitcher: (() -> OnlinePresenceSwitcher)!
+    var onlineSwitcherOperator: OnlinePresenceSwitcherOperator!
+    
     var state: State = .idle {
         didSet {
             guard isViewLoaded else {
@@ -46,6 +49,8 @@ public final class Scene: UIViewController {
         output = nil
         registrar = nil
         operation = nil
+        onlineSwitcher = nil
+        onlineSwitcherOperator = nil
     }
     
     public override func viewDidLoad() {
@@ -118,6 +123,7 @@ public final class Scene: UIViewController {
         
         switch result {
         case .ok:
+            let _ = onlineSwitcherOperator.switchToOnline(using: onlineSwitcher())
             output(.ok(OK("registered successfully")))
             
         case .err(let error):

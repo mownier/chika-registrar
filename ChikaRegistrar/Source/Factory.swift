@@ -14,10 +14,12 @@ public final class Factory {
     var theme: Theme?
     var output: ((Result<OK>) -> Void)?
     var registrar: (() -> ChikaCore.Registrar)?
+    var onlineSwitcher: (() -> ChikaCore.OnlinePresenceSwitcher)?
     
     public init() {
         self.theme = Theme()
         self.registrar = { Registrar() }
+        self.onlineSwitcher = { OnlinePresenceSwitcher() }
     }
     
     public func withTheme(_ theme: Theme) -> Factory {
@@ -35,11 +37,17 @@ public final class Factory {
         return self
     }
     
+    public func withOnlineSwitcher(_ switcher: @escaping () -> ChikaCore.OnlinePresenceSwitcher) -> Factory {
+        self.onlineSwitcher = switcher
+        return self
+    }
+    
     public func build() -> Scene {
         defer {
             theme = nil
             output = nil
             registrar = nil
+            onlineSwitcher = nil
         }
         
         let bundle = Bundle(for: Factory.self)
@@ -49,6 +57,8 @@ public final class Factory {
         scene.output = output
         scene.registrar = registrar
         scene.operation = RegistrarOperation()
+        scene.onlineSwitcher = onlineSwitcher
+        scene.onlineSwitcherOperator = OnlinePresenceSwitcherOperation()
         return scene
     }
     
